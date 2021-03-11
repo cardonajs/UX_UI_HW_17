@@ -21,7 +21,7 @@ a{
 }
 #hero{
     background-image:url(./profile\ place\ holder\ .jpg);
-    background-size: cover;
+    background-size: 50%;
     background-position:relative;
     z-index: 1;
 }
