@@ -4,6 +4,12 @@
 margin:0;
 box-sizing: :border-box;}
 
+.nav{
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+
 html{
     font-size: 10px;
     font-family:'libre caslon',sans-serif;
@@ -20,7 +26,7 @@ a{
 
 }
 #hero{
-    background-image:url(./profile\ place\ holder\ .jpg);
+    background-image:
     background-size: 50%;
     background-position:relative;
     z-index: 1;
@@ -38,9 +44,9 @@ a{
 #hero h1{
     display: block;
     width:fit-content;
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
-    color:#735A5E;
+    color:black;
 
 }
 
@@ -73,6 +79,18 @@ a{
     background-color:#F2BDC7;
 
 }
+
+#horizontal li {
+    display: inline-block;
+    
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+}
+
+
 @keyframes text_reveal_box{
     50%
 
