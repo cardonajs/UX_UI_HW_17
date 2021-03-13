@@ -2,7 +2,7 @@
 *
 {padding:0;
 margin:0;
-box-sizing: :border-box;}
+box-sizing:border-box;}
 
 .nav{
     align-items:flex-end;
@@ -26,27 +26,27 @@ a{
 
 }
 #hero{
-    background-image:
+    /* background-image: */
     background-size: 50%;
     background-position:relative;
     z-index: 1;
 }
-;
-#hero:after{
+ /* #hero:after{
     content: '';
     position:absolute;
     left:0;
     top:0;
     height:100%;
     width: 100%;
-    background-color:#F2EEEB;
-}
+    background-color:#F2EEEB;} */
+
 #hero h1{
     display: block;
     width:fit-content;
     font-size: 60px;
     position: relative;
     color:black;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 
@@ -91,7 +91,70 @@ header {
 }
 
 
-@keyframes text_reveal_box{
+/* @keyframes text_reveal_box{
     50%
 
 }
+* {
+    box-sizing: border-box;
+  } */
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
