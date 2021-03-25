@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap');
+
 *
 {padding:0;
 margin:0;
 box-sizing:border-box;}
 
 html{
-    font-size: 14px;
     font-family:'libre caslon',sans-serif;
 }
 
@@ -53,9 +52,7 @@ header {
   position: relative;
   color:black;
   text-align: center;
-  
-
-}
+  }
 
 /* #hero{
     background-image: 
@@ -139,8 +136,7 @@ header {
     padding: 20px;
     font-family: Arial;
   }
-  
-  /* Center website */
+
   .main {
     max-width: 1000px;
     margin: auto;
