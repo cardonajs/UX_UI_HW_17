@@ -53,6 +53,34 @@ header {
   color:black;
   text-align: center;
   }
+.preloader{
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  z-index: index 100000;
+  background-color:white;
+  top:0;
+  display:flex;
+  align-items: center;
+}
+
+.preloader img{
+  animation: spin 3s ease;
+  width: 150px;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }}
 
 /* #hero{
     background-image: 
@@ -153,7 +181,7 @@ header {
   
   /* Add padding BETWEEN each column (if you want) */
   .row,
-  .row > .column {
+  .row >.column {
     padding: 8px;
   }
   
